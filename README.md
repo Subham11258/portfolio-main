@@ -1,13 +1,11 @@
 
 # DSFolio V1
 
-<center>
-    <img src="/public/cover.png" alt="DSFolio" />
-</center>
+
 
 <center>
 
-https://dsfolio-v1.vercel.app/
+https://portfolio-main-w6go.vercel.app/
 
 </center>
 
@@ -17,13 +15,9 @@ https://dsfolio-v1.vercel.app/
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio-v1.git
+    git clone git@github.com:Subham11258/portfolio-main.git
     ```
-2. Change into the project directory
-    ```bash
-    cd dsfolio-v1
-    ```
-3. Install dependencies
+2. Install dependencies
     ```bash
     yarn install 
     ```
