@@ -4,7 +4,7 @@ const info = {
         name: "Subham Gupta",
         description:"Aspiring Frontend/MERN Stack Developer with expertise in JavaScript, React, Node.js, and a passion for building dynamic, user-friendly web applications. I’m currently enrolled in Scaler Academy, where I’ve honed my skills in DSA, SQL, JavaScript, React, and the MERN stack, and cleared multiple mock interviews, including React and MERN. I hold certifications in React, JavaScript, Problem Solving, Frontend Python, and SQL from HackerRank, along with a HackerRank React Certification, showcasing my strong technical foundation. I’ve built impactful projects like a bookings website using the MERN stack with Stripe payment integration and data encryption, an IMDb clone, and a Google Gemini clone. Additionally, I’ve contributed to a collaborative laptop rental service for students, leveraging Django, PostgreSQL, and React. With a strong problem-solving mindset and a focus on continuous learning, I’m dedicated to enhancing both my technical and communication skills to excel in collaborative environments.",
         role: "Full-Stack Developer",
-        photo: "../../public/profile.jpeg",
+        photo: "profile.jpeg",
         email: "subhamguptaslg.1996@gmail.com",
     },
 

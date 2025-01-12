@@ -1,19 +1,19 @@
 import user_info from "../../data/user_info.js";
-import { Suspense, lazy } from "react";
+
 
 import { IoIosArrowForward } from "react-icons/io";
-const profile_photo = lazy(()=>import('../../../public/profile.jpeg'))
+
 function Hero() {
   return (
     <section id="hero" className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24">
       <div className="self-center">
         <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle">
-          <Suspense fallback={<p>loading...</p>}><img
-            src={profile_photo}
+          <img
+            src={user_info.main.photo}
             className="rounded-full mb-6 lg:hidden"
             alt="Subham Gupta photo"
           />
-          </Suspense>
+          
 
           {/* =========== TOOLTIP TEXT =========== */}
           <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity  inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm" role="tooltip">
